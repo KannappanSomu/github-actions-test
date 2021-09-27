@@ -20,7 +20,7 @@ public class GreetingServiceTest {
         var greeting = greetingService.sayHello("Amr");
         assertEquals(
                 "greeting message is not as expected",
-                "Hello Amr",
+                "Helllo Amr",
                 greeting);
     }
 }
